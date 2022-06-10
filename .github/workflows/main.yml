@@ -3,6 +3,9 @@
 
 name: Main CI
 
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
 on:
   push:
     branches: [ "master" ]
